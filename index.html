@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=
+    , initial-scale=1.0"
+    />
+    <title>ToDoApp</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="main">
+      <div class="left-col">
+        <div class="right">
+          <div class="container">
+            <a href="#">
+              <img
+                id="pc-logo"
+                class="logo"
+                src="images/logo.svg"
+                alt="MyTasks logo"
+              />
+            </a>
+          </div>
+        </div>
+        <h1 class="style-task">Welcome to <span>MyTasks !</span></h1>
+        <p class="subhead">
+          With our help, you'll stay on top of your tasks <br />
+          and crush your to-do list with ease.
+        </p>
+        <img
+          id="pc-img"
+          class="img"
+          src="images/MainPageImg.svg"
+          alt="MyTasks Image"
+        />
+      </div>
+      <div class="right-col">
+        <div class="create-acc">
+          <h1 class="title"><span>Create an account</span></h1>
+          <form action="">
+            <label for="email" class="em">Email</label>
+            <br />
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Enter your email"
+            />
+            <br />
+            <label for="password" class="pass">Password</label>
+            <br />
+            <div class="wrapper">
+              <input
+                type="password"
+                id="password"
+                name="password"
+                placeholder="Enter your password"
+              />
+              <i class="far fa-eye" id="togglePassword"></i>
+              <br />
+            </div>
+            <input
+              type="submit"
+              class="create-acc-cta"
+              value="Create account"
+            />
+            <br />
+            <button type="submit" class="continue-google">
+              <img src="images/google.svg" class="google" />
+              <p class="google">Continue with Google</p>
+            </button>
+          </form>
+          <p class="login">
+            Already have an account ? <span> <a href="#">Log in</a> </span>
+          </p>
+        </div>
+      </div>
+    </div>
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/9.17.2/firebase-app.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+
+      // Your web app's Firebase configuration
+      const firebaseConfig = {
+        apiKey: "AIzaSyDhT-gR8AyW9Rq9Btd73JBUe6uwACXAvR0",
+        authDomain: "todose-86f95.firebaseapp.com",
+        projectId: "todose-86f95",
+        storageBucket: "todose-86f95.appspot.com",
+        messagingSenderId: "256644977522",
+        appId: "1:256644977522:web:661ad5d7b3afca691343eb",
+      };
+
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+    </script>
+  </body>
+</html>
