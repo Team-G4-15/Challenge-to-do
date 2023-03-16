@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    /* fonts */
+    --font-google-sans: "Google Sans";
+  
+    /* font sizes */
+    --font-size-7xl: 26px;
+    --font-size-9xl: 28px;
+    --font-size-5xl: 24px;
+    --font-size-17xl: 36px;
+    --font-size-21xl: 40px;
+    --font-size-45xl: 64px;
+  
+    /* Colors */
+    --better-version-lol-xd: #0a2a5c;
+    --color-darkgray-100: #aeaeae;
+    --color-white: #fff;
+    --color-dimgray: #636262;
+    --a-lighter-version-of-the-blue: #79d7ff;
+    --bitch: #126dfb;
+    --color-black: #000;
+  
+    /* border radiuses */
+    --br-21xl: 40px;
+    --br-11xl: 30px;
+    --br-mini: 15px;
+  }
+  
