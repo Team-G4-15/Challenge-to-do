@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="tasks.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Google Sans:wght@500;700&display=swap"/>
+  </head>
+  <body>
+    <header>
+      <img id="mytasks-icon" src="../assets/logo.svg"/>
+      <h1 id="mytasks">MyTasks</h1>
+      <button type="button" id="logout">Log out</button>
+    </header>
+    <main>
+      <section id="new-task">
+        <form id="new-task-form" action="post">
+          <input type="text" id="new-task-input" placeholder="You got this!"/>
+          <input type="submit" id="new-task-submit" value="Add task"/>
+        </form>
+      </section>
+      <section id="task-list">
+        <div id="tasks">
+        </div>
+      </section>
+      <section>
+        
+      </section>
+    </main>
+    
+    <script src="tasks.js"></script>
+  </body>
+</html>
